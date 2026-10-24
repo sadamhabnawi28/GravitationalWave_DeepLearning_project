@@ -56,6 +56,8 @@ The project uses publicly available events from the **Gravitational Wave Open Sc
 | Strain Data    | Time-series detector strain |
 | Event Metadata | Published source parameters |
 
+[*See full script*](https://github.com/sadamhabnawi28/GravitationalWave_DeepLearning_project/blob/d3124cdcdd2bd230f4d3f00a26510e95903d8c23/scripts/data_generator/real_data.py)
+
 ### Simulated Data
 
 Synthetic training samples are generated using [**PyCBC**](https://pycbc.org/) by varying:
