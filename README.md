@@ -68,7 +68,7 @@ Synthetic training samples are generated using [**PyCBC**](https://pycbc.org/) b
 | `mass2`               | 5–45 M☉       |
 | `luminosity_distance` | 600–1945 Mpc  |
 
-Noise is added to simulate realistic detector observations.
+Noise is added to simulate realistic detector observations. [*See full script*](https://github.com/sadamhabnawi28/GravitationalWave_DeepLearning_project/blob/b9fd2c75bd04289a6b7b69d25397ecd5ba9eafd4/scripts/data_generator/simulated_data_generator.py)
 
 ---
 
@@ -109,7 +109,7 @@ The resulting spectrogram is resized using TensorFlow to a fixed image dimension
 
 ### Why Spectrograms?
 
-Although gravitational-wave data are naturally 1D signals, spectrograms provide a **time–frequency representation** that makes chirp evolution visually distinguishable. CNNs are highly effective at learning spatial patterns from such representations.
+Although gravitational-wave data are naturally 1D signals, spectrograms provide a **time–frequency representation** that makes chirp evolution visually distinguishable. CNNs are highly effective at learning spatial patterns from such representations. [*See full script*](https://github.com/sadamhabnawi28/GravitationalWave_DeepLearning_project/blob/b9fd2c75bd04289a6b7b69d25397ecd5ba9eafd4/scripts/data_training/data_preprocessing.py)
 
 ![LIGO Spectrogram](images/spectrogram.png)
 
@@ -132,7 +132,7 @@ CNN Model
 ```
 ## CNN Architecture
 
-The model is designed as a **multi-output regression network**.
+The model is designed as a **multi-output regression network**. [*See full script*](https://github.com/sadamhabnawi28/GravitationalWave_DeepLearning_project/blob/b9fd2c75bd04289a6b7b69d25397ecd5ba9eafd4/scripts/data_training/GWCNN_trainer.py)
 
 ### Simplified Architecture
 
